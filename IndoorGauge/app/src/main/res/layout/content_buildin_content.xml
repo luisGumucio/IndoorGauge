@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="calibrador.org.gageindoor.MainActivity"
+    tools:showIn="@layout/activity_buildin_content">
+
+    <TableRow android:background="#128675">
+
+        <TextView
+            android:layout_column="0"
+
+            android:text="Edificios Disponible"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white" />
+    </TableRow>
+    <TextView android:id="@+id/LblMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione uno de la lista para detalles"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        />
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginRight="5dip">
+        <ListView
+            android:id="@+id/listEdifice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</TableLayout>

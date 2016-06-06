@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">IndoorGauge</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_building">Edificio</string>
+    <string name="title_activity_floor">Piso</string>
+    <string name="title_activity_gauge_img">Calibrador</string>
+    <string name="title_activity_buildin_content">dsd</string>
+    <string name="title_activity_rfid_create">Grabar RFID</string>
+</resources>
